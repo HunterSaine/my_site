@@ -1,4 +1,6 @@
-.title {
+body {
+  font: sans-serif;
+}.title {
   text-align: center;
 }
 .pagelinks {
