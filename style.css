@@ -44,4 +44,12 @@ body {
 }
 #nobullets {
   list-style: none;
+  padding: 5px;
+}
+.aboutme {
+  text-align: auto;
+  margin: auto 400px;
+}
+.center {
+  text-align: center;
 }
