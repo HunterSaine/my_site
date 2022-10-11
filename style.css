@@ -42,3 +42,6 @@ body {
   margin: 05px;
   padding: 5px;
 }
+#nobullets {
+  list-style: none;
+}
