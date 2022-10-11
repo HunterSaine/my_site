@@ -3,9 +3,11 @@ body {
 }
 .title {
   text-align: center;
+  border-style: solid;
 }
 .pagelinks {
   text-align: center;
+  margin-bottom: 8px;
 }
 .button {
   text-align: center;
@@ -28,4 +30,15 @@ body {
   text-align: center;
   margin: 0px;
   text-decoration-line: underline;
+}
+.linkspagebutton {
+  margin: 10px;
+  text-align: center;
+  padding: 05px;
+  text-decoration: none;
+  color: black;
+}
+.liststyle {
+  margin: 05px;
+  padding: 5px;
 }
