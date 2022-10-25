@@ -1,13 +1,30 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  justify-content: space-between;
+  height: 100vh;
 }
 .title {
   text-align: center;
-  border-style: solid;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 50px;
+}
+.logo {
+  margin: 0px;
+  font-style: italic;
+}
+.contentBox {
+  display: flex;
+  flex-direction: column;
 }
 .pagelinks {
   text-align: center;
-  margin-bottom: 8px;
 }
 .button {
   text-align: center;
@@ -21,7 +38,7 @@ body {
   border-width: 01px;
 }
 .button:hover {
-  background-color: aqua;
+  background-color: rgb(190, 72, 190);
 }
 .return {
   color: black;
@@ -52,4 +69,10 @@ body {
 }
 .center {
   text-align: center;
+}
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 14px;
 }
