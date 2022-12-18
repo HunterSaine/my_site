@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 7px 50px;
+  padding: 7px 100px;
 }
 .logo {
   margin: 0px;
@@ -27,6 +27,9 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+#aboutMeBigPixels {
+  font-size: 20px;
 }
 .pagelinks {
   display: flex;
@@ -92,7 +95,7 @@ body {
   border: #1f2937 solid 0px;
   padding: 3px 10px;
   text-indent: 30px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 130%;
 }
 .imageHolder,
